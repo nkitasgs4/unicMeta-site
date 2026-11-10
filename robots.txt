@@ -1,0 +1,67 @@
+# Сайт открыт для поисковых систем и нейросетей
+
+User-agent: *
+Allow: /
+Disallow: /404.html
+
+# Поисковики
+User-agent: Yandex
+Allow: /
+
+User-agent: Googlebot
+Allow: /
+
+User-agent: Bingbot
+Allow: /
+
+# ChatGPT (OpenAI): поиск, переходы пользователей, обучение
+User-agent: OAI-SearchBot
+Allow: /
+
+User-agent: ChatGPT-User
+Allow: /
+
+User-agent: GPTBot
+Allow: /
+
+# Claude (Anthropic)
+User-agent: Claude-SearchBot
+Allow: /
+
+User-agent: Claude-User
+Allow: /
+
+User-agent: ClaudeBot
+Allow: /
+
+# Perplexity
+User-agent: PerplexityBot
+Allow: /
+
+User-agent: Perplexity-User
+Allow: /
+
+# Gemini (Google) и Apple Intelligence
+User-agent: Google-Extended
+Allow: /
+
+User-agent: Applebot
+Allow: /
+
+User-agent: Applebot-Extended
+Allow: /
+
+# Прочие ИИ-сервисы и открытые датасеты
+User-agent: Amazonbot
+Allow: /
+
+User-agent: CCBot
+Allow: /
+
+User-agent: DuckAssistBot
+Allow: /
+
+User-agent: MistralAI-User
+Allow: /
+
+Sitemap: https://greenflagblog.ru/sitemap.xml
